@@ -1,0 +1,145 @@
+         body { 
+                background: white;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0px;
+                padding: 0px;
+     
+            }
+            h1 {
+                color: black;
+                margin-left: 20px;
+            }
+
+             h2 {
+                color:gray;
+            }
+
+             p { 
+                color:black;
+            }
+
+            header {
+                background: navy;
+                padding: 20px;
+            }
+
+            ul {
+                margin: 0px;
+                padding: 0px;
+                list-style-type: none; /* to remove the bullets from the items in li */
+            }
+
+            
+            li {
+                display: inline-block;
+                margin-right: 20px; /* to have spacing between the items in li */
+                
+
+            }
+            
+            nav ul {
+                display: flex;              /* put items in a row */
+                justify-content: flex-end;  /* move items to the right */
+                list-style-type: none;      /* remove bullets */
+                padding: 0;
+                margin: 0;
+            }
+
+            nav li {
+                color: white;
+                 margin-left: 20px;          /* spacing between items */
+                 font-weight: bold;
+                 font-size: 20px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                justify-content: flex-end;
+            }
+
+            a:visited {
+                color: white;
+            }
+
+            a:hover {
+                color:yellow;
+            }
+
+            section {
+                background: white;
+                color: gray;
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            
+
+            footer {
+                background: black;
+                padding: 10px 20px;
+
+            }
+
+            /* This section contains all the style parameters for the journal articles/book chapters setction*/
+            p {
+                margin-left: 20px;
+            }
+
+            p {
+            color: black;
+            text-align: justify;
+            }
+
+           
+            /* Publications section */
+            .Publications {
+                padding: 0 30px;
+            }
+
+           /* Keep the publication text red while hovering over it */
+             .Publications a {
+                color: black;
+            }
+
+            .Publications a:hover {
+                color: red;
+            }
+
+           /* .Publications a:visited{
+                color: purple;
+            } */
+
+            .Publications li {
+                color: black;
+            }
+
+            /* Force bullet dots to appear */
+            .Publications ul.publication-list {
+                list-style: disc outside !important;
+                padding-left: 40px !important;
+                margin-left: 0;
+            }
+
+            /* Individual publications */
+            .Publications ul.publication-list li {
+                display: list-item !important;
+                color: black;
+                text-align: justify;
+                margin-bottom: 15px;
+                line-height: 1.6;
+            }
+
+
+
+
+            
+
+            
+
+
+          
+         
+            

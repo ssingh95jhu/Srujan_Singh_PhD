@@ -1,0 +1,205 @@
+         body { 
+                background: white;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0px;
+                padding: 0px;
+     
+            }
+            h1 {
+                color: black;
+                margin-left: 20px;
+            }
+
+             h2 {
+                color:gray;
+            }
+
+             p { 
+                color:black;
+            }
+
+            header {
+                background: navy;
+                padding: 20px; 
+
+                position: fixed;
+                top: 0; 
+                left: 0;
+                width: 100%;
+                z-index: 1000;
+                box-sizing: border-box;
+            }
+
+            ul {
+                margin: 0px;
+                padding: 0px;
+                list-style-type: none; /* to remove the bullets from the items in li */
+            }
+
+            
+            li {
+                display: inline-block;
+                margin-right: 20px; /* to have spacing between the items in li */
+                
+
+            }
+            
+            nav ul {
+                display: flex;              /* put items in a row */
+                justify-content: flex-end;  /* move items to the right */
+                list-style-type: none;      /* remove bullets */
+                padding: 0;
+                margin: 0;
+            }
+
+            nav li {
+                 margin-left: 20px;          /* spacing between items */
+                 font-weight: bold;
+                 font-size: 20px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                justify-content: flex-end;
+            }
+
+            a:visited {
+                color: white;
+            }
+
+            a:hover {
+                color:yellow;
+            }
+
+            section {
+                background: white;
+                color: gray;
+                padding: 100x 20px 20px;;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            
+
+            footer {
+                background: black;
+                padding: 10px 20px;
+
+            }
+
+/* This section contains all the style parameters for the profile section */
+            .profile-section {
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            .profile-section img {
+                padding-top: 40px;
+                display: block;
+                margin: auto;
+            }
+
+            
+
+            .profile-section h1{
+                padding-top:15px;
+            }
+            
+            
+            .profile-section h3,
+            .profile-section p {
+                margin: 10px 0;
+            }
+
+            .profile-section {
+                display: flex;
+                align-items: flex-start;
+                gap: 40px;
+                padding: 40px;
+            }
+
+/* Profile picture, name, and designation on the LEFT */
+            .profile-info {
+                width: 500px;
+                flex-shrink: 0;
+                text-align: center;
+            }
+
+            .profile-info img {
+                width: 500px;
+                height: auto;
+                display: block;
+            }
+
+            .profile-info h1 {
+                color: black;
+                margin: 10px 0 0 0;
+                text-align: center;
+            }
+
+            .profile-info h3 {
+                color: rgb(78, 77, 77);
+                margin: 15px 0 0 0;
+                text-align: center;
+            }
+
+            .profile-info h3 + h3 {
+                margin-top: 5px;
+            } 
+
+
+
+            .profile-info-table h2 {
+                color: black;
+                margin-top: 35px;
+                text-align: center;
+            }
+
+            
+            .profile-info-table td {
+            color:black;
+            padding-left: 5px; 
+            text-align: left;
+            vertical-align: middle;
+            margin-top:5px;
+            }
+            
+
+            .TLDR h2 {
+                color: black;
+                margin-top: 35px;
+                text-align: center;
+            }
+
+            .Contact h2 {
+                color: black;
+                margin-top: 35px;
+                text-align: center;
+            }
+
+/* Paragraph on the RIGHT */
+            .profile-description {
+                flex: 1;
+            }
+
+            .profile-description p {
+                color: rgb(78, 77, 77);
+                margin: 0;
+                padding: 7.5px;
+                line-height: 1.7;
+                text-align: justify;
+            }
+
+            .profile-section .profile-description a{
+                color: rgb(78, 77, 77);
+            }
+
+            .profile-section .profile-description a:hover{
+                color: red;
+            }
+
+         /*.profile-section .profile-description a:visited{
+                color: brown;
+            } */

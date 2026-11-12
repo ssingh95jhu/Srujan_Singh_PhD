@@ -1,0 +1,261 @@
+         body { 
+                background: white;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0px;
+                padding: 0px;
+     
+            }
+            h1 {
+                color: black;
+                margin-left: 20px;
+            }
+
+             h2 {
+                color:gray;
+            }
+
+             p { 
+                color:black;
+            }
+
+            header {
+                background: navy;
+                padding: 20px;
+            }
+
+            ul {
+                margin: 0px;
+                padding: 0px;
+                list-style-type: none; /* to remove the bullets from the items in li */
+            }
+
+            
+            li {
+                display: inline-block;
+                margin-right: 20px; /* to have spacing between the items in li */
+                
+
+            }
+            
+            nav ul {
+                display: flex;              /* put items in a row */
+                justify-content: flex-end;  /* move items to the right */
+                list-style-type: none;      /* remove bullets */
+                padding: 0;
+                margin: 0;
+            }
+
+            nav li {
+                 margin-left: 20px;          /* spacing between items */
+                 font-weight: bold;
+                 font-size: 20px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                justify-content: flex-end;
+            }
+
+            a:visited {
+                color: white;
+            }
+
+            a:hover {
+                color:yellow;
+            }
+
+            section {
+                background: white;
+                color: gray;
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            
+
+            footer {
+                background: black;
+                padding: 10px 20px;
+
+            }
+
+            /* This section contains all the style parameters for the profile section */
+            .profile-section {
+                text-align: center;
+                padding-top: 40px;
+            }
+
+            .profile-section img {
+                display: block;
+                margin: auto;
+            }
+
+            
+
+            .profile-section h1,
+            .profile-section h3,
+            .profile-section p {
+                margin: 10px 0;
+            }
+
+            /* This section contains all the style parameters for the Research Interests Tab */
+            /* POINT OF CARE TREATMENT OF LARGE PERIORBITAL BONE DEFECTS*/
+            /* ================================ Research Project ================================ */ 
+            .scientific_work {
+                display: block;
+            }
+
+            .scientific_work h1 {
+            color: black;
+            margin-top: 5px;
+            text-align:center;
+            }
+
+            .scientific_work .top_section_1 {
+            display: flex;
+            align-items: flex-start;
+            /*align-items: stretch; */
+            gap: 30px; 
+            /*width: 100%; */
+            }
+
+            .scientific_work .top_section_1 img {
+            display:block;
+            width: 50%;
+            height: auto;
+            }
+
+            .scientific_work .description {
+            flex: 1;
+            } 
+
+            .scientific_work .top_section_1 p {
+            color: rgb(78, 77, 77);
+            margin-top: 0;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            text-align: justify;
+            }
+
+            .scientific_work .top_section_1 figure {
+            flex: 0 0 calc(50% - 15px);
+            margin: 0;
+            text-align: center;
+            }
+
+            .scientific_work .top_section_1 figure img {
+            display: block;
+            width: 100%;
+            height: auto;
+            }
+
+            .scientific_work .top_section_1 figcaption {
+            color: black;
+            margin-top: 10px;
+            font-size: 16px;
+            
+            text-align: justify;
+            }
+
+            .scientific_work .bottom_section_1 {
+            width: 100%;
+            margin-top: 0px;
+            margin-right: 200px;
+            }
+
+ 
+
+            .scientific_work a {
+             color: navy;
+             text-decoration: underline;
+            }
+
+            .scientific_work a:hover {
+            color: red;
+            }
+
+            /*
+            .scientific_work .top_section_2 {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            }
+
+            .scientific_work .top_section_2 {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            }
+
+            .scientific_work .top_section_2 img {
+            width: 50%;
+            height: auto;
+            display: block;
+            }
+
+            .scientific_work .top_section_2 p {
+            flex: 1;
+            color: rgb(78, 77, 77);
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            } */
+
+
+.scientific_work .top_section_2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/*.scientific_work .top_section_2 img {
+    display: block;
+    width: 50%;
+    height: auto;
+} */
+
+.scientific_work .top_section_2 figure {
+    flex: 0 0 calc(50% - 15px);
+    margin: 0;
+    text-align: center;
+}
+
+.scientific_work .top_section_2 figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.scientific_work .top_section_2 figcaption {
+    color: black;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.scientific_work .top_section_2 .description {
+    flex: 1;
+}
+
+.scientific_work .top_section_2 p {
+    color: rgb(78, 77, 77);
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+            
+
+            
+
+
+          
+         
+            
