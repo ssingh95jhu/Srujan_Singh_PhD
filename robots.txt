@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ssingh95jhu.github.io/Srujan_Singh_PhD/sitemap.xml
