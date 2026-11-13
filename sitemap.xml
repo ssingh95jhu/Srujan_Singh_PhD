@@ -3,8 +3,19 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <!-- Homepage -->
     <url>
         <loc>https://ssingh95jhu.github.io/Srujan_Singh_PhD/</loc>
+    </url>
+
+    <!-- Research Interests -->
+    <url>
+        <loc>https://ssingh95jhu.github.io/Srujan_Singh_PhD/profile_pages/Research_Interests.html</loc>
+    </url>
+
+    <!-- Publications -->
+    <url>
+        <loc>https://ssingh95jhu.github.io/Srujan_Singh_PhD/profile_pages/Publications.html</loc>
     </url>
 
 </urlset>
